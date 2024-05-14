@@ -1,0 +1,101 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* index.css */
+
+.commentListItem {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(18, 53, 91, 0.1);
+  margin-bottom: 16px;
+}
+
+.dpNameAndTimeRowContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.dpStyle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #334155;
+  margin-right: 12px;
+}
+
+.nameStyle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #334155;
+  margin-right: 12px;
+}
+
+.timeInstance {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.commentPara {
+  font-size: 16px;
+  color: #334155;
+  margin-bottom: 12px;
+}
+
+.likeAndDelBtnRowCon {
+  display: flex;
+  align-items: center;
+}
+
+.likeButton,
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.like,
+.like:hover {
+  width: 20px;
+  height: auto;
+}
+
+.likedPara,
+.notLikedPara {
+  font-size: 14px;
+  color: #64748b;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 575px) {
+  .commentListItem {
+    flex-direction: column;
+  }
+}
+
